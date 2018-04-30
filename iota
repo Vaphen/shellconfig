@@ -1,0 +1,8 @@
+#!/bin/sh
+
+wget https://min-api.cryptocompare.com/data/price\?fsym\=IOT\&tsyms\=EUR -O /tmp/iota
+content=`cut -c 8- /tmp/iota | head -c -2`
+echo $content€ > /tmp/iota
+echo $content€
+
+
