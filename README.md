@@ -1,7 +1,7 @@
 # shellconfig
 Shell config with installation script
 
-Prequisites:
+Prerequisites:
 - zsh
 - oh-my-zsh
 - feh
